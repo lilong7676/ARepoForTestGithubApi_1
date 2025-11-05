@@ -7,8 +7,8 @@ on:
   create:
   delete:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *"  # 每天凌晨 3 点补偿执行
+  # schedule:
+    # - cron: "0 3 * * *"  # 每天凌晨 3 点补偿执行
 
 permissions:
   contents: read  # 读取 A 仓库；推送到 B/C 用 PAT
